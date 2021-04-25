@@ -1,4 +1,6 @@
 {
   "mongoURI": "mongodb+srv://nishanprime:nishan1234@cluster0.drhjx.mongodb.net/DrexelHUB?retryWrites=true&w=majority",
-  "jwtSecret": "thisIsHighlyConfidentialMessage"
+  "jwtSecret": "thisIsHighlyConfidentialMessage",
+  "gitHubclientID": "dd0b343dcf6c383c9969",
+  "gitHubClientSecret": "f2e411590aea68fc5e13be5474f4acb380403a94"
 }
