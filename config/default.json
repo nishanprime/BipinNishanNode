@@ -1,3 +1,4 @@
 {
-  "mongoURI": "mongodb+srv://user:user@nishanbipinnode.i8dnw.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+  "mongoURI": "mongodb+srv://nishanprime:nishan1234@cluster0.drhjx.mongodb.net/DrexelHUB?retryWrites=true&w=majority",
+  "jwtSecret": "thisIsHighlyConfidentialMessage"
 }

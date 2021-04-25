@@ -10,12 +10,15 @@ import connectDB from './config/db.js';
 connectDB();
 const app = express();
 
+//middleware for body-parser
+app.use(express.json({ extended: false }));
+
 // port
 const PORT = process.env.PORT || 5000;
 
-app.use('/auth', authRoute);
-app.use('/post', postRoute);
-app.use('/profile', profileRoute);
-app.use('/users', usersRoute);
+app.use('/api/auth', authRoute);
+app.use('/api/post', postRoute);
+app.use('/api/profile', profileRoute);
+app.use('/api/users', usersRoute);
 // Listner
 app.listen(PORT, () => console.log('server is running on port 5000'));
